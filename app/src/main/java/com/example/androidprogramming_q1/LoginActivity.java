@@ -8,11 +8,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     private Button loginBtn;
-    private Button registerBtn;
+    private TextView registerBtn;
     private EditText username;
     private EditText password;
 
@@ -21,6 +22,8 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_activity);
+        getSupportActionBar().hide();
+
 
         username = findViewById(R.id.username_field);
         password = findViewById(R.id.password_field);

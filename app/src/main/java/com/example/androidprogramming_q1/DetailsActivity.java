@@ -23,6 +23,7 @@ public class DetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
+        getSupportActionBar().hide();
 
         avatar = findViewById(R.id.image_view);
         first_name = findViewById(R.id.first_name_text_view);

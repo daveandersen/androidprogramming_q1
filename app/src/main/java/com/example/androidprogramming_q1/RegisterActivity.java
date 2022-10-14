@@ -19,6 +19,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        getSupportActionBar().hide();
 
         registerBtn = findViewById(R.id.register_btn);
         usernameText = findViewById(R.id.username_field);
@@ -31,9 +32,9 @@ public class RegisterActivity extends AppCompatActivity {
                 String password = passwordText.getText().toString();
 
                 if(username.equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please enter username password", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Please enter username", Toast.LENGTH_LONG).show();
                 } else if(password.equals("")) {
-                    Toast.makeText(getApplicationContext(), "Please enter username password", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Please enter password", Toast.LENGTH_LONG).show();
                 } else {
                     Intent intent = new Intent(v.getContext(), LoginActivity.class);
                     startActivity(intent);

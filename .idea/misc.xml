@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/drawable-v24/button.xml" value="0.1565" />
+        <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/drawable-v24/sign.xml" value="0.1565" />
+        <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/drawable/ic_phone.xml" value="0.12" />
+        <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/drawable/layout_bg.xml" value="0.121" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/activity_details.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/activity_list.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/layout_bg.xml" value="0.1" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/list_item_card_view.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Dave/AndroidStudioProjects/AndroidProgramming_Q1/app/src/main/res/layout/login_activity.xml" value="0.22826086956521738" />
       </map>
