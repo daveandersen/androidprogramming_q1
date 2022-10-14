@@ -36,6 +36,7 @@
         android:background="@drawable/sign"
         android:hint="Username"
         android:paddingLeft="20dp"
+        android:inputType="textPersonName"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
     <EditText
@@ -45,6 +46,7 @@
         android:background="@drawable/sign"
         android:hint="Password"
         android:paddingLeft="20dp"
+        android:inputType="textPassword"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
     <Button

@@ -29,8 +29,9 @@
         android:layout_width="320dp"
         android:layout_height="50dp"
         android:background="@drawable/sign"
-        android:hint="Email"
+        android:hint="Username"
         android:paddingLeft="20dp"
+        android:inputType="textPersonName"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
     <EditText
@@ -40,6 +41,7 @@
         android:background="@drawable/sign"
         android:hint="Password"
         android:paddingLeft="20dp"
+        android:inputType="textPassword"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"/>
     <TextView
